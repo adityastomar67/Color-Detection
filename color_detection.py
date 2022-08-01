@@ -1,6 +1,7 @@
 import cv2
 import pandas as pd
 
+# Have to put the absolute path for the image
 path = input("Enter The Path: ")
 
 img = cv2.imread(path)
